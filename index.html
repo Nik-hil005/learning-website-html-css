@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnED - Simple solution to online learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">LearnED</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Courses">Courses</a></li>
+                    <li><a href="#Instructors">Instructors</a></li>
+                    <li><a href="#Blogs">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="btn" style="color: var(--text-light)">Login</a>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Unlock Your Potential with <br><span style="color: var(--primary-color)">LearnED</span></h1>
+            <p>Join thousands of learners and access top-rated courses from expert instructors. Learn anytime, anywhere.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Start Learning</button>
+                <button class="btn btn-outline">View Courses</button>
+            </div>
+            
+            <div style="margin-top: 50px;">
+                <img class="hero-img" src="/Images/Hero_image.jpg" alt="Hero-img-placeholder">
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <span class="category-icon">💻</span>
+                    <h3>Development</h3>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">🎨</span>
+                    <h3>Design</h3>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">📊</span>
+                    <h3>Business</h3>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">🗣️</span>
+                    <h3>Languages</h3>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">📚</span>
+                    <h3>Academic</h3>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">🎵</span>
+                    <h3>Music</h3>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">🧪</span>
+                    <h3>Science</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section id="Courses"></section> 
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Featured Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image img-placeholder"><img src="/Images/web_dev.png" alt="webdev"></div>
+                    <div class="course-content">
+                        <div class="course-category">Web Development</div>
+                        <h3 class="course-title">Full Stack Web Development Bootcamp</h3>
+                        <div class="course-rating">★★★★☆ (4.5)</div>
+                        <div class="course-footer">
+                            <div class="price">₹2499 <span class="old-price">₹5000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image img-placeholder" style="background: #dcfce7;"><img src="/Images/ui_ux.png" alt="UI-UX"></div>
+                    <div class="course-content">
+                        <div class="course-category">Design</div>
+                        <h3 class="course-title">UI/UX Design Masterclass</h3>
+                        <div class="course-rating">★★★★★ (5.0)</div>
+                        <div class="course-footer">
+                            <div class="price">₹1999 <span class="old-price">₹2800</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image img-placeholder" style="background: #fef9c3;"><img src="/Images/bussi_analyt.jpeg" alt="Business">></div>
+                    <div class="course-content">
+                        <div class="course-category">Business</div>
+                        <h3 class="course-title">Business Analytics Fundamentals</h3>
+                        <div class="course-rating">★★★★☆ (4.2)</div>
+                        <div class="course-footer">
+                            <div class="price">Free</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image img-placeholder" style="background: #fee2e2;"><img src="/Images/social_media.jpg" alt="Marketing"></div>
+                    <div class="course-content">
+                        <div class="course-category">Marketing</div>
+                        <h3 class="course-title">Social Media Marketing Strategies</h3>
+                        <div class="course-rating">★★★★☆ (4.8)</div>
+                        <div class="course-footer">
+                            <div class="price">₹999 <span class="old-price">₹3000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image img-placeholder" style="background: #fee2e2;"><img src="/Images/aiml.png" alt="AIML"></div>
+                    <div class="course-content">
+                        <div class="course-category">AI Development</div>
+                        <h3 class="course-title">Artificial Intelligence and ML</h3>
+                        <div class="course-rating">★★★★☆ (4.9)</div>
+                        <div class="course-footer">
+                            <div class="price">₹3999 <span class="old-price">₹5000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image img-placeholder" style="background: #fee2e2;"><img src="/Images/data_sci.jpg" alt="DSML"></div>
+                    <div class="course-content">
+                        <div class="course-category">Data Science</div>
+                        <h3 class="course-title">Data Science and ML </h3>
+                        <div class="course-rating">★★★★☆ (4.8)</div>
+                        <div class="course-footer">
+                            <div class="price">₹3999 <span class="old-price">₹5000</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors -->
+    <section id="Instructors"></section> 
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Meet Our Instructors</h2>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-img" style="background: #bfdbfe;"></div>
+                    <div class="instructor-name">Peter Parker</div>
+                    <div class="instructor-role">Web Developer</div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-img" style="background: #bbf7d0;"></div>
+                    <div class="instructor-name">Hideo Kojima</div>
+                    <div class="instructor-role">Graphic Designer</div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-img" style="background: #fde047;"></div>
+                    <div class="instructor-name">Elon Musk</div>
+                    <div class="instructor-role">Business Analyst</div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-img" style="background: #fecaca;"></div>
+                    <div class="instructor-name">Tony Stark</div>
+                    <div class="instructor-role">AIML Expert</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs -->
+    <section id="Blogs"></section> 
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="student-img"></div>
+                    <div class="testimonial-content">
+                        <p>"The courses are well-structured and easy to follow. I learned so much in just a few weeks!"</p>
+                        <div class="student-name">Jane Smith</div>
+                        <small>Web Development Student</small>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="student-img"></div>
+                    <div class="testimonial-content">
+                        <p>"Great instructors and high quality content. I highly recommend this platform to everyone."</p>
+                        <div class="student-name">Mark Doe</div>
+                        <small>UX Design Student</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <details>
+                    <summary>How do I enroll in a course?</summary>
+                    <div class="faq-answer">
+                        <p>Simply click on the course you are interested in, then click the "Enroll Now" button. You will be guided through the checkout process.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Are there any free courses?</summary>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a variety of free introductory courses. Look for the "Free" tag on the course cards.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Can I get a certificate after completion?</summary>
+                    <div class="faq-answer">
+                        <p>Absolutely. Upon successfully completing a paid course, you will receive a verifiable digital certificate.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Can I access courses on mobile?</summary>
+                    <div class="faq-answer">
+                        <p>Yes, our platform is fully responsive. You can learn on your phone, tablet, or desktop computer.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section" style="background-color: #f8fafc;">
+        <div class="container newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p style="color: #6b7280; margin-top: 10px;">Get the latest updates, course launches, and exclusive offers sent to your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" class="newsletter-input" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="margin-bottom: 20px;">LearnED</div>
+                    <p>Empowering learners worldwide with quality online education.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Instructors</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>hello@learned.com</li>
+                        <li>+91 9876543210</li>
+                        <li>K. R. Mangalam University, Sohna</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 LearnED. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
